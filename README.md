@@ -2,7 +2,7 @@
 
 ## Distributed processing of large nD datasets across computer clusters using Daisy
 
-Enhancing image quality is the main goal of digital image processing, which is followed by feature extraction and categorization. It is used in fields like computer vision, imaging in medicine, meteorology, astronomy, remote sensing, and others. The primary difficulty is that it takes a lot of time to complete tasks in general; parallel computing offers an effective and practical solution to this problem.
+Enhancing image quality is the main goal of digital image processing followed by feature extraction and categorization. Image processing has been used in fields like computer vision, medicine, meteorology, astronomy, remote sensing, and others. The primary challenge is that it takes a lot of time to complete tasks in general. Parallel computing offers an effective and practical solution to this problem. Primarily, I used Daisy to resolve this challenge at work for handling spatial transcriptomic datasets because this package is tasked with creating a scalable and quick distributed block-wise scheduler for processing very big (3D/4D bio imaging datasets ranging from TBs to PBs) datasets. We require a scheduler that is quick and scalable, but also resilient to faults and recoverable or resumeable in the event of hardware problems.
 
 > ### Daisy chains complex pipelines of tasks
 
